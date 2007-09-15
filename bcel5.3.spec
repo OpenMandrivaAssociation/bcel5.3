@@ -5,7 +5,7 @@
 
 Name:           bcel5.3
 Version:        5.3
-Release:        %mkrel 1.1.1
+Release:        %mkrel 1.1.2
 Epoch:          0
 Summary:        Byte Code Engineering Library
 License:        Apache License
@@ -24,8 +24,6 @@ BuildRequires:  maven2-plugin-resources
 BuildRequires:  maven2-plugin-site
 BuildRequires:  maven2-plugin-surefire
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 Buildarch:      noarch
