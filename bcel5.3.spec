@@ -5,7 +5,7 @@
 
 Name:           bcel5.3
 Version:        5.3
-Release:        %mkrel 1.1.2
+Release:        %mkrel 1.1.3
 Epoch:          0
 Summary:        Byte Code Engineering Library
 License:        Apache License
@@ -14,7 +14,7 @@ Source0:        http://www.apache.org/dist/jakarta/bcel/source/bcel.tar.bz2
 Source1:        %{name}-jpp-depmap.xml
 URL:            http://jakarta.apache.org/bcel/
 Group:          Development/Java
-BuildRequires:  jpackage-utils >= 0:1.5
+BuildRequires:  java-rpmbuild >= 0:1.5
 BuildRequires:  junit
 BuildRequires:  maven2-plugin-compiler
 BuildRequires:  maven2-plugin-install
