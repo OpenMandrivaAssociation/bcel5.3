@@ -28,7 +28,6 @@ BuildRequires:  java-gcj-compat-devel
 %else
 Buildarch:      noarch
 %endif
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The Byte Code Engineering Library (formerly known as JavaClass) is
