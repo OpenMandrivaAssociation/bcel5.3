@@ -5,7 +5,7 @@
 
 Name:           bcel5.3
 Version:        5.3
-Release:        %mkrel 1.1.4
+Release:        %mkrel 1.1.5
 Epoch:          0
 Summary:        Byte Code Engineering Library
 License:        Apache License
